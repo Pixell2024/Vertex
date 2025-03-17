@@ -1,5 +1,8 @@
 import Image from "next/image";
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 52bd47f (Initial commit)
 import ComA from "./components/ComA";
 import StatsSection from "./components/StatsSection";
 import ImageGrid from "./components/ImageGrid";
@@ -10,6 +13,7 @@ import TestimonialsSection from "./components/TestimonialsSection";
 import PartnersShowcase from "./components/PartnersShowcase";
 import ImageSignage from "./components/ImageSignage";
 import ContactForm from "./components/ContactForm";
+<<<<<<< HEAD
 
 export default function Home() {
   return (
@@ -125,6 +129,24 @@ export default function Home() {
         </a>
       </footer>
 >>>>>>> 98af572 (Initial commit from Create Next App)
+=======
+
+export default function Home() {
+  return (
+    <div className=" bg-gray-50">
+      <ComA />
+      <StatsSection />
+      <ImageGrid />
+      <BillboardSection />
+      <ImageSignage />
+      <PartnersShowcase />
+      <TestimonialsSection />
+      <BlogSection />
+      <div className=" md:hidden p-4 m-2 border rounded-2xl bg-black text-white">
+        <ContactForm />
+      </div>
+      <Footer />
+>>>>>>> 52bd47f (Initial commit)
     </div>
   );
 }
