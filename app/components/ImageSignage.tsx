@@ -48,8 +48,8 @@ export default function ImageSignage() {
                 <Image
                   src={src}
                   alt={`Signage ${index + 1}`}
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  style={{ objectFit: "cover" }}
                   quality={100}
                 />
 

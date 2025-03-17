@@ -6,8 +6,8 @@ import {
   Pinterest,
   ArrowForward,
 } from "@mui/icons-material";
+import XIcon from '@mui/icons-material/X';
 import { useState } from "react";
-import { FaXTwitter } from "react-icons/fa6"; // Importing X (Twitter) Icon
 import ContactForm from "./ContactForm";
 
 export default function Footer() {
@@ -34,7 +34,7 @@ export default function Footer() {
               href="#"
               className="w-10 h-10 flex items-center justify-center rounded-md bg-gray-800 hover:bg-green-600 transition-all duration-300"
             >
-              <FaXTwitter className="w-5 h-5 text-white" />
+              <XIcon className="w-5 h-5 text-white" />
             </a>
             <a
               href="#"
